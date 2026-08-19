@@ -61,6 +61,12 @@ A few quick start guides are available on the Consul website:
 
 Full, comprehensive documentation is available on the Consul website: https://consul.io/docs
 
+## SCA test fixture
+
+This fork also carries `reachability-fixture/`, an isolated Go module (separate `go.mod`, not
+part of Consul's own build) used by Datadog's SCA pipeline to test reachable-symbols detection
+for Go. See its [README](reachability-fixture/README.md) for details.
+
 ## Contributing
 
 Thank you for your interest in contributing! Please refer to [CONTRIBUTING.md](https://github.com/hashicorp/consul/blob/main/.github/CONTRIBUTING.md)
